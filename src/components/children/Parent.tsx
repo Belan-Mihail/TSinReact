@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Component inside component with TS
+
 const Parent = ({ children }: {children: React.ReactNode}) => {
   return (
     <div>

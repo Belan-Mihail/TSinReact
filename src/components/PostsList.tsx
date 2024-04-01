@@ -3,6 +3,7 @@ import PostCard from './PostCard'
 import TPostProps from '../types/types'
 import '../App.css';
 
+// props with TS
 
 async function getData() {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
